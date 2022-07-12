@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("img/4.gif");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1pt;
+    font-family: 'Kite One', sans-serif;
+}
+
+.name {
+    display: flex;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 36%, rgba(255,255,255,0) 100%);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo {
+    width: 80%;
+    transform: translateY(-5%);
+}
