@@ -33,3 +33,28 @@ h1 {
     width: 80%;
     transform: translateY(-5%);
 }
+
+.nav {
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 20px;
+}
+
+.nav-list {
+    font-family: "Arial Narrow", sans-serif;
+    margin: 0;
+    font-size: 16pt;
+    font-style: italic;
+    line-height: 18pt;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: normal;
+}
