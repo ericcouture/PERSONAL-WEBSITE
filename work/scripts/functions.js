@@ -2,7 +2,8 @@ function toggleWidth() {
     var right = document.getElementById("right");
     var left = document.getElementById("left");
     right.classList.toggle("right-fullwidth");
-    left.classList.toggle("left-smallwidth");
+    // right.classList.toggle("right-fullwidth.background-image");
+    left.classList.toggle("left-fullwidth");
 }
 
 function worlds() {

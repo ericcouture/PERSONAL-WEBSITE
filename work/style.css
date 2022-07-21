@@ -13,6 +13,7 @@ iframe {
 
 h1 {
     font-style: italic;
+    font-size: 30pt;
 }
 .hidden {
     display: none;
@@ -38,11 +39,16 @@ h1 {
     width: 50vw;
     background-image: url("../img/vermont.gif");
     background-size: cover;
+    transition: 1s;
 
 }
 
 .right-fullwidth {
     width: 75vw;
+}
+
+.right-fullwidth.background-image {
+    filter: opacity(20%);
 }
 
 .left-normal {
@@ -54,5 +60,26 @@ h1 {
 }
 
 .work-body {
-    background-image: url("../img/background.png");
+    padding: 20px;
+    /*background-image: url("../img/background.png");*/
+}
+
+.work-title {
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.work-heading {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    line-height: 16pt;
+}
+.desc-list{
+    list-style-type: none;
+}
+
+.work-desc {
+
 }
